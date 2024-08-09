@@ -1,0 +1,14 @@
+[package]
+name = "tracing"
+version = "0.1.0"
+edition = "2021"
+[lib]
+name = "tracing"
+crate-type = ["lib"]
+
+[dependencies]
+
+[build-dependencies]
+cc = "1"
+cmake = "0.1"
+bindgen = "0.69"
